@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Mukta:wght@500&display=swap');
+
+* {
+    /* to remove the dot */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    overflow-x: initial;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: none;
+    min-height: 100vh;
+    background: #a28089;
+
+}
+.container{
+    width: 700px;
+    background: #f5f5f5;
+    border-radius: 1px;
+    padding: 30px;
+}
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 2px solid #bbb;
+    -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+    box-shadow:  4px 3px -5px 5px #f5f5f5;
+}
+.wrapper .text-input .To-text{
+    -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+    box-shadow:  0px 0px -5px 5px #f5f5f5;
+}
+.wrapper .text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 500;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+.controls, li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn {
+   padding-right: 0px;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .icons i{
+    color: #a28089;
+    width: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 2px solid #bbb;
+}
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 2px solid #bbb;
+}
+
+.controls .icons {
+    width: 30%;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background: none;
+}
+.controls .exchange{
+    color: #a28089;
+    font-size: 15px;
+    cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    color: #f5f5f5;
+    font-size: 18px;
+    border-radius: 6px;
+    background: #a28089;
+    -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+    box-shadow:  2px 2px -5px 10px #f5f5f5;
+}
+
+
+/* color hover info */
+.infobox{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #323232a4;
+    background-color: #c5c5c5;
+    border: 5cap solid #f5f5f5;
+    border-radius: 15px;
+    -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+    box-shadow:  2px 2px -5px 10px #f5f5f5;
+  }
